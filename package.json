@@ -1,0 +1,45 @@
+{
+  "name": "godie",
+  "version": "1.0.0",
+  "description": "goedie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxtail000/go-die.git"
+  },
+  "author": "hox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foxtail000/go-die/issues"
+  },
+  "homepage": "https://github.com/foxtail000/go-die#readme",
+  "dependencies": {
+    "async": "^2.1.1",
+    "body-parser": "^1.15.2",
+    "connect-mongo": "~0.8.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "lodash": "^4.16.4",
+    "mysql": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "nodemailer": "^2.6.4",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "request": "^2.75.0",
+    "run-sequence": "^1.1.5",
+    "sendcloud": "^1.6.1",
+    "sequelize": "^2.0.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.0.4",
+    "should": "^6.0.1"
+  }
+}

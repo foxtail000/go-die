@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h1= title
+	p Welcome to #{title}
+	link(href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css",rel="stylesheet")
+
+	div
+
+		//input(type="button",value="login" onclick="killerwhale.login()" )
+		//input#btntext(type="button",value="登录" ,data-toggle="modal" ,data-target="#killerwhaleLoginModal"  ,href="http://localhost:80/login_i")
+		div#killerwhalelogin
+		div#killerwhaleregister
+		div#killerwhalelogout
+			input(id='kwlogout',type="button",value="注销")
+
+	div
+		div(id="msg")
+	script(src='http://oss.killerwhale.cn/sdk/killerwhale.min.js')
+	script(src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js")
+	script(src="/javascripts/index.js")
